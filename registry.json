@@ -11,6 +11,11 @@
       "dependencies": ["@radix-ui/react-toast", "class-variance-authority", "lucide-react"],
       "files": [
         {
+          "path": "error-handler-readme.md",
+          "type": "registry:file",
+          "target": "error-handler-README.md"
+        },
+        {
           "path": "registry/error-handler/ui/toast.tsx",
           "type": "registry:component",
           "target": "components/ui/toast.tsx"
