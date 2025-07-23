@@ -11,47 +11,47 @@
       "dependencies": ["@radix-ui/react-toast", "class-variance-authority", "lucide-react"],
       "files": [
         {
-          "path": "registry/ui/toast.tsx",
+          "path": "registry/error-handler/ui/toast.tsx",
           "type": "registry:component",
           "target": "components/ui/toast.tsx"
         },
         {
-          "path": "registry/ui/toaster.tsx",
+          "path": "registry/error-handler/ui/toaster.tsx",
           "type": "registry:component",
           "target": "components/ui/toaster.tsx"
         },
         {
-          "path": "registry/hooks/use-toast.ts",
+          "path": "registry/error-handler/hooks/use-toast.ts",
           "type": "registry:hook",
           "target": "hooks/use-toast.ts"
         },
         {
-          "path": "registry/utils/error-handler/types.ts",
+          "path": "registry/error-handler/utils/error-handler/types.ts",
           "type": "registry:lib",
           "target": "utils/error-handler/types.ts"
         },
         {
-          "path": "registry/utils/error-handler/error-mapper.ts",
+          "path": "registry/error-handler/utils/error-handler/error-mapper.ts",
           "type": "registry:lib",
           "target": "utils/error-handler/error-mapper.ts"
         },
         {
-          "path": "registry/utils/error-handler/interceptor.ts",
+          "path": "registry/error-handler/utils/error-handler/interceptor.ts",
           "type": "registry:lib",
           "target": "utils/error-handler/interceptor.ts"
         },
         {
-          "path": "registry/utils/error-handler/context.tsx",
+          "path": "registry/error-handler/utils/error-handler/context.tsx",
           "type": "registry:lib",
           "target": "utils/error-handler/context.tsx"
         },
         {
-          "path": "registry/utils/error-handler/provider.tsx",
+          "path": "registry/error-handler/utils/error-handler/provider.tsx",
           "type": "registry:lib",
           "target": "utils/error-handler/provider.tsx"
         },
         {
-          "path": "registry/utils/error-handler/index.ts",
+          "path": "registry/error-handler/utils/error-handler/index.ts",
           "type": "registry:lib",
           "target": "utils/error-handler/index.ts"
         }
