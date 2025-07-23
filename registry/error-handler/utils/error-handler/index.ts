@@ -22,8 +22,8 @@ import { getErrorMapping } from "./error-mapper"
 export function createHttpClient(config?: Partial<import("./types").ErrorHandlerConfig>) {
   const defaultConfig = {
     showToast: true,
-    enableRetry: true,
-    maxRetries: 3,
+    enableRetry: false,
+    maxRetries: 1,
     retryDelay: 1000,
     debugMode: process.env.NODE_ENV === "development",
     customMessages: {},
